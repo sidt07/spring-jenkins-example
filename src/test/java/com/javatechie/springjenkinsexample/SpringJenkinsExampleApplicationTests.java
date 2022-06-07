@@ -20,6 +20,7 @@ class SpringJenkinsExampleApplicationTests {
 	void contextLoads() {
 		logger.info("Welcome to jenkins Test!!!");
 		logger.info("Welcome to jenkins Test 2!!!");
+		logger.info("Welcome to jenkins Test 2!!!");
 		assertEquals(true, true);
 	}
 
