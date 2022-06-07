@@ -1,5 +1,7 @@
 package com.javatechie.springjenkinsexample;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,6 +16,8 @@ class SpringJenkinsExampleApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Welcome to jenkins Test!!!");
+		logger.info("Welcome to jenkins Test 2!!!");
+		assertEquals(true, true);
 	}
 
 }
