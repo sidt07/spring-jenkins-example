@@ -12,14 +12,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 class SpringJenkinsExampleApplicationTests {
 	
-	//public static org.slf4j.Logger logger=LoggerFactory.getLogger(SpringJenkinsExampleApplication.class);
+	public static org.slf4j.Logger logger=LoggerFactory.getLogger(SpringJenkinsExampleApplication.class);
 	
 
 
 	@Test
 	void contextLoads() {
 		logger.info("Welcome to jenkins Test!!!");
-		logger.info("Welcome to jenkins Test 2!!!");
+		//logger.info("Welcome to jenkins Test 2!!!");
 		assertEquals(true, true);
 	}
 
